@@ -1,0 +1,11 @@
+<% if (msg.length !== 0) { %>
+    <div class="alert alert-success">
+        <%= msg %> 
+    </div>   
+<% } %>
+
+<% if (msg === 'undefined') { %>
+    <div class="alert alert-danger" role="alert">
+     <%= msg %> 
+    </div>
+  <% } %> 

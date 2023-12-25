@@ -1,0 +1,25 @@
+<div class="text-center mt-3"><h1><strong>Add product</strong></h1></div>
+
+<div class="card card-form mt-5">
+    <div class="row">
+        <div class="col">
+            <form action="/add-product"  method="post" enctype="multipart/form-data">
+                <div class="mb-3">
+                  <label for="productName" class="form-label">product Name</label>
+                  <input type="text" class="form-control form-control-lg" id="productName" name="productName" >
+                </div>
+                <div class="mb-3">
+                  <label for="description" class="form-label">description</label>
+                  <input type="text" class="form-control form-control-lg" id="description" name="description" >
+                </div>
+                <div class="mb-3">
+                  <label for="image" class="form-label">Select image</label>
+                  <input class="form-control form-control-lg" type="file" name="image" >
+                </div>
+          
+                
+                <button type="submit" class="btn btn-primary mt-4">Add</button>
+              </form>
+        </div>
+    </div>
+</div>
